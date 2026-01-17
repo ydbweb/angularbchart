@@ -34,6 +34,9 @@ export class MainComponent implements OnInit {
        this.isLoading=true;
        if (localStorage.getItem(this.optionssave)==undefined){
             this.DatasourceService.getData(this.graphnumber).subscribe((res : any[])=>{
+                console.log(res);
+                res["options"]=res[0]["options"];
+                res["data"]=res[0]["data"];
                 localStorage.setItem(this.optionssave, JSON.stringify(res["options"]));
                 localStorage.setItem(this.datasave, JSON.stringify(res["data"])); 
                 this.setData();

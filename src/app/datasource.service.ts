@@ -1,17 +1,16 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DatasourceService {
-    //baseUrl:string = "http://localhost:8585/laravelweb/public/index.php/";
-    baseUrl:string = "https://ydbweb.com/laravelweb/public/index.php/";
-    baseUrlposts:string = "serv";
+  private dataUrl = 'assets/dataBarchart.json';
 
-  constructor(private httpClient : HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  getData(wich) {
-      return this.httpClient.get(this.baseUrl+ this.baseUrlposts + '/'+wich);
+  getData(wich): Observable<any[]> {
+    return this.http.get<any[]>(this.dataUrl);
   }
 }

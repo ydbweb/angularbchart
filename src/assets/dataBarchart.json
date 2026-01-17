@@ -1,0 +1,76 @@
+[
+    {
+        "options": {
+            "id": 1,
+            "timestamps": 0,
+            "fontcolor": "#FF5733",
+            "linecolor": "#000000",
+            "backgroundcolor": "#FFFFFF",
+            "yaxis": 100,
+            "baraxis": 200,
+            "sizeheight": 200,
+            "barwidth": 50,
+            "interval": 5,
+            "legendType": 1
+        },
+        "data": 
+           [
+            {
+                "id": 1,
+                "timestamps": 1705528000,
+                "name": "Project Alpha",
+                "value": 42,
+                "color": "#4e79a7",
+                "config_id": 1
+            },
+            {
+                "id": 2,
+                "timestamps": 1705528100,
+                "name": "Beta Metrics",
+                "value": 87,
+                "color": "#f28e2c",
+                "config_id": 1
+            },
+            {
+                "id": 3,
+                "timestamps": 1705528200,
+                "name": "Gamma Flow",
+                "value": 18,
+                "color": "#e15759",
+                "config_id": 1
+            },
+            {
+                "id": 4,
+                "timestamps": 1705528300,
+                "name": "Delta Shift",
+                "value": 63,
+                "color": "#76b7b2",
+                "config_id": 1
+            },
+            {
+                "id": 5,
+                "timestamps": 1705528400,
+                "name": "Epsilon Peak",
+                "value": 95,
+                "color": "#59a14f",
+                "config_id": 1
+            },
+            {
+                "id": 6,
+                "timestamps": 1705528500,
+                "name": "Zeta Point",
+                "value": 31,
+                "color": "#edc949",
+                "config_id": 1
+            },
+            {
+                "id": 7,
+                "timestamps": 1705528600,
+                "name": "Eta Range",
+                "value": 74,
+                "color": "#af7aa1",
+                "config_id": 1
+            }
+            ]
+        }
+]

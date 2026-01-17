@@ -33,6 +33,7 @@ export class ElementsComponent implements OnInit {
       set setMain(maindataele: any) {
       this.maindataele=maindataele;
       this.steps=4;
+      console.log(this.maindataele);
       this.totalsteps=this.steps*3;
       this.maindataelesplit=new Array();
       this.maindataelesplit[0]=this.maindataele.slice(0, this.steps);
